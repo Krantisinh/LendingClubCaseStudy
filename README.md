@@ -1,6 +1,14 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
 
+A major online loan marketplace is offering personal, business, and medical procedure financing. The dataset available covers loan data issued between 2007 and 2011, providing a comprehensive view for analysis.
+
+When a person applies for a loan, the company can either accept or reject the application. If the loan is accepted, there are three possible scenarios: 
+fully paid, current (in the process of repayment), or charged-off (defaulted). 
+
+The purpose of this project is to -
+
+1. Use exploratory Data Analysis to identify risky loan applicants so that the loan default rate can be reduced
+2. Understanding the driving factors behind loan defaults
 
 ## Table of Contents
 * [General Info](#general-information)
