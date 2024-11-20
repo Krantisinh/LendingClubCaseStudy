@@ -19,42 +19,34 @@ The purpose of this project is to -
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+### Overview
+This project centers on analysing loan data from a major online loan marketplace that offers various financing options, including personal, business, and medical procedure loans. By examining loan data issued between 2007 and 2011, the project aims to gain insights into applicant risk profiles and identify the main factors associated with loan defaults.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Project Background
+Loan defaults can significantly impact the financial health of lending institutions, affecting profitability and operational efficiency. Understanding the characteristics and behaviours that contribute to defaults is essential for developing effective risk assessment strategies. This project provides a platform for applying data analysis techniques to identify patterns and trends within loan data, contributing to a more accurate and data-driven lending process.
+
+### Business Problem we're trying to solve
+The project addresses a key business problem: reducing the loan default rate by accurately identifying high-risk applicants. By using exploratory data analysis (EDA) to pinpoint the factors that most commonly contribute to defaults, the project seeks to support the loan marketplace in making better-informed lending decisions, ultimately leading to improved risk management and financial stability.
+
+### Dataset
+The dataset includes comprehensive loan data from 2007 to 2011, capturing application outcomes (accepted or rejected) and detailing loan status for accepted applications, which fall into three categories: fully paid, current (in repayment), or charged-off (defaulted). The data shared is in csv file with 39717 rows and 111 columns
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+1. *Credit Risk Factors*: High debt-to-income ratio, lower credit grades (D-G), and high credit utilization are strong indicators of default risk.  
+2. *Verification Importance*: Borrowers with unverified income pose higher risks, yet they often receive lower interest rates.  
+3. *Geographic Variance*: Default rates vary significantly by region, with some states (e.g., NE, NV) exhibiting higher risks.  
+4. *Loan Purpose Impact*: Loans for debt consolidation and credit cards are more prone to defaults, requiring stricter approval criteria and monitoring.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+Python & its following supporting libraries 
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on Exploratory Data Analysis module of [Executive Post Graduate Programme in Machine Learning & Artificial Intelligence](https://www.iiitb.ac.in/executive-post-graduate-programme-in-machine-learning-artificial-intelligence).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@itzKrantisinh](https://github.com/krantisinh) & [Yamini Dadhirao](https://www.linkedin.com/in/yamini-dadhirao-3a8678a4/) - feel free to contact us!
